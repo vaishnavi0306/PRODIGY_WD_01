@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4)),
+    url("https://wallpapercave.com/w/wp3191573.jpg");
+    background-size: cover;
+
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 3em;
+    letter-spacing: 3px;
+    font-family: "Gill Sans", sans-serif;
+    padding: 20px;
+    transition: all 1s ease-out 1s;
+}
+
+.logo:hover{
+    color: rgba(141, 14, 37, 0.885);
+    font-size: 3.5em;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px ;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    background: transparent;
+    border: 1px solid rgba(141, 14, 37, 0.885);
+}
+
+
+.section{
+    max-width: 650px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+.section span{
+    letter-spacing: 5px;
+    font-size: 3rem;
+} 
+.section h1{
+    font-size: 3.5rem;
+}
+.section a{
+    text-decoration: none;
+    background-color:  rgba(141, 14, 37, 0.885);
+    font-weight: 900;
+    color: White;
+    padding: 10px 20px ;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+
+.section a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+    color: white;
+}
+
