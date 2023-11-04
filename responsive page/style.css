@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     color: white;
-    font-family: "Gill Sans", sans-serif;
+    font-family: 'Finger Paint', serif;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -30,7 +31,7 @@ nav{
 .logo{
     font-size: 3em;
     letter-spacing: 3px;
-    font-family: "Gill Sans", sans-serif;
+    font-family: 'Finger Paint', serif;
     padding: 20px;
     transition: all 1s ease-out 1s;
 }
@@ -62,6 +63,7 @@ nav{
     transform: translate(-50%,-50%);
     color: white;
     text-align: center;
+    font-family: 'Finger Paint', sans-serif;
 }
 
 .section span{
@@ -86,4 +88,3 @@ nav{
     border: 1px solid indianred;
     color: white;
 }
-
